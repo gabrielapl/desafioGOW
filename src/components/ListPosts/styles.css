@@ -1,0 +1,14 @@
+.ListPostContainer{
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 2rem;
+}
+.ListPostContainer h3{
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.ListPostContainer p{
+  font-weight: 600;
+  color: var(--black);
+  text-align: center;
+  padding: 2rem 0 ;
+}

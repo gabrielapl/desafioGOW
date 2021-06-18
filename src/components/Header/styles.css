@@ -1,0 +1,26 @@
+.headerContainer{
+  flex:1;
+  background: var(--green-blue);
+  height: 6.5rem;
+  display: flex;
+  align-items: center;
+
+  padding: 2rem 4rem;
+
+  border-bottom: 5px solid var(--blue-light);
+
+ 
+
+} 
+.headerContainer p{
+  font-weight: bold;
+  margin-left: 2rem;
+  padding: 0.25rem 0 0.25 2rem;
+  border-left: 1px solid var(--black);
+  font-size: 1.5rem;
+}
+.headerContainer span{
+  font-weight: 500;
+  margin-left: auto;
+  text-transform: capitalize;
+}
