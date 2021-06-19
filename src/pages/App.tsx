@@ -60,19 +60,23 @@ function App() {
       </div>
       <h2>Posts Aleatórios...!</h2>
       <div className="listWrapperPost">
-          {
+        {
             posts.map(item =>(
-              <ListPosts data={item} />
+            <ListPosts data={item} />
             ))
           }
       </div>
       <h2>Users...!</h2>
       <div className="listWrapperUsers">
+        <ul>
+
       {
+
             users.map(item =>(
-              <ListUsers data={item} />
+             <ListUsers data={item} />
             ))
-          }
+      }
+        </ul>
       </div>
     </div>
     
